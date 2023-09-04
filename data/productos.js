@@ -1,10 +1,10 @@
 export const productos = [
   {
-    Id: 1,
-    Nombre: "Varita Harry",
-    Precio: 7000,
-    Imagen: "../img/varitaharry.jpg",
-    Categoria: "varitas",
+    id: 1,
+    nombre: "Varita Harry",
+    precio: 7000,
+    ifmagen: "../img/varitaharry.jpg",
+    categoria: "varitas",
   },
   {
     Id: 2,
