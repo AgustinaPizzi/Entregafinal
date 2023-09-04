@@ -1,3 +1,5 @@
+console.log(productos);
+
 const userlogin = document.getElementById("login");
 const prod_div = document.getElementById("productos");
 
@@ -7,8 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
   generarCardsProductos(productosDispoinbles);
 });
 
-export const generarCardsProductos = (productos) => {
-  divProductos.innerHTML = "";
+const generarCardsProductos = (productos) => {
+  prod_div.innerHTML = "";
 
   productos.forEach((producto) => {
     const { imagen, nombre, categoria, precio, id } = producto;
